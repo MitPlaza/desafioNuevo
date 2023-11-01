@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+span{
+    font-size: 13px;
+}
+
+i{
+    color: #707070;
+}
+
+::placeholder{
+    font-weight: 300;
+}
+
+
+
+.navbar,
+.bg-success{
+    background-color: #28A745!important;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.caja {
+    margin: 0 auto!important;
+}
+
+.navbar-brand{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+footer h3{
+    text-align: center;
+}
+
+footer p{
+    color: #707070;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer .copyright{
+    text-align: center;
+}
+
+footer img{
+    width: 82px;
+    height: 24px;
+    text-align: center;
+}
+
+.precio{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    border-top: 1px solid rgba(0,0,0,.125);
+
+}
+
+.precio span{
+    padding: 5px 15px;
+}
+
+.precio span:first-child{
+    color: #707070;
+    font-size: 16px;
+}
+.precio span:last-child{
+    color: #28A745;
+    font-size: 20px;
+    font-weight: 500;
+}
